@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<!--Cabecera donde se coloca el codigo que no se muestra y sirve para el buen funcionamiento de la pagina-->    
+    <head>
+        <meta charset="utf-8">                              <!--Codifica los caracteres. Acentos, etc-->
+        <meta name="viewport" content="width=device-width">  <!--Adapta el contenido a la pantalla del dispositivo donde se ve-->
+        <title>Pagina de Rafa</title>                       <!--Es el titulo que aparece en el navegador-->
+        <meta name="robots" content="index, follow">        <!--Para que el navegador indexe la pagina y siga los enlaces-->
+        <meta name="theme-color" content="#09f">            <!--Añade color a la barra del navegador. Para darle apariencia a la pagina-->
+        <link rel="icon" type="yo.jpg" href="">             <!--Saca la foto del link en la barra del navegador-->
+        <meta name="descripcion" content="Portfolio de Rafa">   <!--Titulo que aparece en el navegador al buscar paginas relacionadas-->
+                   
+                    <!--OPEN GRAPH. Como se el contenido en redes socialres-->
+        <meta property="og:title" content="Pagina web de Rafa">                     <!--Titulo que aparece debajo de la foto en los navegadores-->
+        <meta property="og:description" content="Informacion variada de interes">   <!--Descripcion menos importante que sale debajo del anterior-->
+        <meta property="og:image" content="yo.jpg">                                 <!--Muestra la pagina de la direccion indicada-->
+        <meta property="og:image:alt" content="Fotografia de Rafa">                 <!--Aparece el nombre que pongas en la foto --> 
+
+        <link rel="stylesheet" href="estilos.css">                                  <!--Enlace con el archivo css-->
+    </head>
+            
+    <body>
+       
+         <div class="imagen">                                   <!--Coloca una imagen dandole dimensiones y algunos atributos como salir el nombre al colocar el cursor encima-->            
+          <a download href="yo.jpg">
+            <img class="izquierda" width="150" title="Foto 
+            Rafa" alt="fotografia de Rafa sonriendo" src="yo.jpg">
+           </a>
+           <p class="nombre">Rafael Sánchez Sánchez</p>
+           
+       </div> 
+        
+   
+        
+       
+
+        <main>
+            
+<p><strong>Tecnico especialesta en automocion &#x1F697</strong> con 23 años de experiencia.                    <!--Parrafo donde se resalta letra en negrita--> 
+    Actualmente estudiando<strong> Grado superior de automatizacion y robotica industrial &#x1F4DA.</strong></p>
+
+    <nav>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#idiomas">Idiomas</a>
+        <a href="#cursos">Cursos de formación</a>
+        <a href="#estudios">Estudios realizados</a>
+        <a href="#adicional">Más información</a>
+        <a href="#Hobbies">Hobbies</a>
+
+    </nav>
+
+   <h2 id="experiencia"> Experiencia</h2>  <!--Titulo con el identificador para que salte el navegador-->
+
+  <details>                             <!--Coloca una imagen dandole dimensiones y algunos atributos como salir el nombre al colocar el cursor encima-->
+<summary> Ver experiencia</summary>
+<!--Colocar una lista desordenada donde aparece un desplegable que muestra el contenido de la lista-->      
+
+<ul>                                <!--Se crea una lista desordenada-->
+    <li>Chivauto 1996.</li>          <!--Se colocaca cada linea de la lista-->
+    <li>Lois S.A 1998.</li>
+    <li>Valentin Arcos S.L. 2002</li>
+    <li>Adecar S.L 2005.</li>
+    <li>Automoviles CARVI S.L 2007.</li>
+    <li>Automoviles Carcel S.A 2018.</li>
+    <li>ALPLA IBERICA S.A 2020 hasta actualidad.</li>
+  </details>
+
+  <h2 id="idiomas"> Idiomas</h2>
+  <details>
+    <summary>Ver Idiomas</summary>
+        <ul>
+            <li>Castellano. Habldo y escrito</li>
+            <li>Valenciano. Nivel A1</li>
+            <li>ingles. Nivel A1</li>
+        </ul>
+  </details>
+
+  <h2 id="cursos">Cursos de formación </h2>
+  <details>
+    <summary>Ver cursos</summary>
+    <ol>
+        <li>Electricidad del automovil. (400 Horas)</li>
+        <li>Inyecciones electronicas de gasolina (100 Horas)</li>
+        <li>Inyeciones electronicas diesel (100 Horas)</li>
+        <li>Aires acondicionados de vehiculos (100 Horas)</li>
+        <li>Formacion de tecnico Citroën</li>
+    </ul>
+  </details>
+
+  <h2 id="estudios">Estudios realizados</h2>
+  <details>
+    <summary>Ver estudios cursados</summary>
+    <ol>
+        <li>Antigua E.G.B</li>
+        <li>Tecnico especialista en automocion (FP II)</li>
+        <li>Actualmente cursando 1º curso de  grado superior de Automatizacion y robotica industrial </li>
+    </ul>
+  </details>
+
+  <h2 id="adicional">Mas información</h2>
+  <details>
+    <summary>Ver más información </summary>
+    <ol>
+        <li>Carnet de manipulador de gases fluoroclorados</li>
+        <li>Curso prevencion riesgos laborales</li>
+    </ul>
+  </details>
+
+        <h2 id="Hobbies"> Hobbies</h2>
+        <details>
+            <summary>Ver hobbies</summary>
+            <ul> 
+                <li>Acuariofilia.</li>
+                <li><details>
+                    <summary>Apicultura.</summary>
+                    <video controls muted width="250" height="150" src="Emjambre.mp4"></video>
+                </details></li>
+                <li><details>
+                    <summary>Aficionado a la electronica.</summary>
+                    <img  width="300" height="250" src="Arduino.jpg"><img class="ard" width="250" height="300" src="Pic16F84.jpg">
+                </details></li>
+                <li>Reparacion de pequeños electrodomestos elctronicos.</li>
+                <li>Me gusta mucho el cultivo en la huerta.</li>
+                <li>Viajar por pequeños pueblos de España.</li>
+         </details>
+          
+<section>
+    <h2 class="contacto">¿Quieres contactar conmigo?</h2>
+    
+    <form method="post" action="/">
+        <fieldset>
+            <legend>Datos</legend>
+            
+            <div> 
+            <label>Nombre:
+                <input type="text" name="name" placeholder="Rafael Sánchez Sánchez" required>
+            </label>
+        </div>
+      
+       <label>Email:
+                <input type="email" name="email" placeholder="rafa_san_san@hotmail.com" required>
+        </label>
+        <div>
+            <label for="why">¿Sobre que tema quieres preguntar?</label>
+        <select name="why" id="why">
+            <option value="1">Mecanica del automovil</option>
+            <option value="2">Huerta ecologica</option>
+            <option value="3">Apicultura</option>
+        </select>
+        </div>
+        
+            
+    </fieldset>
+            <input class="enviar" type="submit" value="Enviar contacto">
+    </form>
+    
+</section>
+ 
+        </main>                                         
+
+    <footer>
+        <small class="final">Copyright © 2025 Rafael Sánchez </small><a class="correo" href="mailto:rafa_san_san@hotmail.com">Enviame un correo</a> 
+        
+    </footer>
+
+
+    </body>
+
+    </html>
